@@ -24,7 +24,7 @@ app.use('/answer', answerRoutes)
 
 const PORT = process.env.PORT || 5000
 
-//const CONNECTION_URL = "mongodb+srv://admin:pass@stack-overflow-clone.v8rekmi.mongodb.net/?retryWrites=true&w=majority"
+let CONNECTION_URL = "mongodb+srv://admin:pass@stack-overflow-clone.v8rekmi.mongodb.net/?retryWrites=true&w=majority"
 
 const DATABASE_URL = process.env.CONNECTION_URL
 
